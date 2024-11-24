@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:padding="16dp">
+
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        android:gravity="center">
+
+
+        <TextView
+            android:id="@+id/textViewHome"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="HOME"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:paddingBottom="16dp" />
+
+
+        <TextView
+            android:id="@+id/textNombre"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Ezequiel Moises Rivera Larios"
+            android:textSize="16sp"
+            android:gravity="center"
+            android:paddingBottom="16dp" />
+
+        <TextView
+            android:id="@+id/textViewCarnet"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="23002762"
+            android:textSize="16sp"
+            android:gravity="center"
+            android:paddingBottom="16dp" />
+
+
+        <Button
+            android:id="@+id/buttonCargar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Cargar"
+            android:textSize="16sp" />
+
+        <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerViewPaises"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:paddingTop="16dp"/>
+    </LinearLayout>
+</LinearLayout>
+
